@@ -10,21 +10,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-     <!--<form action="CalcServlet">
-            Numero 1: <input name="num1" type="number"> <br>
-            Numero 2: <input name="num2" type="number">   
-            <select id="calcs" name="calcOption">
-                <option value="1">Sumar</option>
-                <option value="2">Restar</option>
-                <option value="3">Multiplicar</option>
-                <option value="4">Dividir</option>
-            </select>
-            <button type="submit">Calcular</button>
-        </form>-->
-     
-        <form action="StudentServlet">
+
+        <a href="StudentServlet">List of Students</a>
+
+        <form action="StudentServlet" method="POST">
             Name: <input name="name" type="text"> <br>
-            Age: <input name="age" type="number">   
+            Last Name: <input name="lastName" type="text"> <br>
+            DOB <input name="DOB" type="date">   
             <select name="careerOption">
                 <option value="Ingenieria Informatica">Ingenieria Informatica</option>
                 <option value="Contabilidad y Finanzas">Contabilidad y Finanzas</option>
@@ -33,6 +25,19 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
             </select>
             <button type="submit">Submit</button>
         </form>
-        
+
+        <!--<form action="CalcServlet">
+                    Numero 1: <input name="num1" type="number"> <br>
+                    Numero 2: <input name="num2" type="number">   
+                    <select id="calcs" name="calcOption">
+                        <option value="1">Sumar</option>
+                        <option value="2">Restar</option>
+                        <option value="3">Multiplicar</option>
+                        <option value="4">Dividir</option>
+                    </select>
+                    <button type="submit">Calcular</button>
+                </form>-->
+
+
     </body>
 </html>
